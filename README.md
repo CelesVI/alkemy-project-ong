@@ -26,18 +26,28 @@ such as daily meeting, scrum, code review, demos and final presentation were als
 # Instalación / Installation
 
 1 - Establezca dos terminales en la carpeta del cliente y del servidor.
+
 2 - Ejecute el comando npm install en ambos terminales.
+
 3 - Establezca los valores de la DB en su propio archivo .env para hacer una conexión db. Hay un archivo .env.example en la carpeta del servidor para ejemplificar.
+
 4 - Ejecute sequelize db:migrate en la terminal del servidor para rellenar las tablas de su base de datos.
+
 5 - Ejecute npm run dev en la terminal del servidor.
+
 6 - Ejecute npm start en la terminal del cliente. mostrará la aplicación en el puerto 3000. 
 
 English
 1 - Set two terminals on client and server folder.
+
 2 - Run npm install command on both terminal.
+
 3 - Set DB values on your own .env file to make a db connection. There is an .env.example on server folder to exemplify.
+
 4 - Run sequelize db:migrate on server terminal to populate tables of your db.
+
 5 - Run npm run dev on server terminal.
+
 6 - Run npm start on client terminal. it'll show the app on port 3000. 
 
 # Screenshots
